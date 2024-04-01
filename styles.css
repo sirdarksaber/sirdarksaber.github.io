@@ -7,7 +7,7 @@ html, body {
 	height: 100%;
 }
 
-marquee {
+.blink {
 	display: block;
 	width: 500px;
 	margin: 100px auto 0;
@@ -79,6 +79,7 @@ span.line {
 	-moz-animation: blink .75s linear infinite;
 	-ms-animation: blink .75s linear infinite;
 	-o-animation: blink .75s linear infinite;
+	animation: blink .75s linear infinite;
 	animation: blink .75s linear infinite;
 }
 
