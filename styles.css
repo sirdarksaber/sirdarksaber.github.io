@@ -7,6 +7,16 @@ html, body {
 	height: 100%;
 }
 
+marquee {
+	display: block;
+	width: 500px;
+	margin: 100px auto 0;
+	padding: 5px 0;
+	border: 1px solid #333;
+	font-weight: 700;
+	color: #c0392b;
+  }
+
 .center {
 	text-align: center;
 }
